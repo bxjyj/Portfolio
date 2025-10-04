@@ -1,0 +1,23 @@
+{
+  "name": "data-scientist-portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio website for a junior Data Scientist",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step needed for static site'",
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": ["portfolio", "data-science", "react", "tailwind"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "homepage": "https://yourusername.github.io/Portfolio"
+}
