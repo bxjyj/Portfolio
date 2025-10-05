@@ -23,26 +23,7 @@ const App = () => {
         );
     }
 
-    return (
-        <div className="min-h-screen bg-gray-900">
-            {/* Navigation */}
-            <Navigation />
-            
-            {/* Main Content */}
-            <main>
-                <Hero />
-                <About />
-                <Skills />
-                <Projects />
-                <Hobbies />
-                <Blog />
-                <Contact />
-            </main>
-            
-            {/* Footer */}
-            <Footer />
-        </div>
-    );
+    return <Router />;
 };
 
 // Render the App

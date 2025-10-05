@@ -1,12 +1,14 @@
-const Projects = () => {
+const Projects = ({ navigateTo }) => {
     const [showAll, setShowAll] = React.useState(false);
-    const [selectedProject, setSelectedProject] = React.useState(null);
 
     const featuredProjects = window.projectsData.filter(project => project.featured);
     const displayProjects = showAll ? window.projectsData : featuredProjects;
 
     const ProjectCard = ({ project }) => (
-        <div className="bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-green-500/50 transition-all duration-300 group hover:shadow-lg hover:shadow-green-500/10">
+        <div 
+            className="bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-green-500/50 transition-all duration-300 group hover:shadow-lg hover:shadow-green-500/10 cursor-pointer"
+            onClick={() => navigateTo(`project/${project.id}`)}
+        >
             <div className="relative overflow-hidden">
                 <img 
                     src={project.image} 
@@ -14,6 +16,12 @@ const Projects = () => {
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="bg-green-500/90 text-white px-6 py-3 rounded-full font-semibold">
+                        <i className="fas fa-eye mr-2"></i>
+                        View Details
+                    </div>
+                </div>
                 <div className="absolute top-4 right-4">
                     <div className="flex space-x-2">
                         <a 
@@ -22,6 +30,7 @@ const Projects = () => {
                             rel="noopener noreferrer"
                             className="bg-gray-900/80 text-white p-2 rounded-full hover:bg-green-500 transition-colors duration-300"
                             aria-label="View GitHub"
+                            onClick={(e) => e.stopPropagation()}
                         >
                             <i className="fab fa-github text-sm"></i>
                         </a>
@@ -31,6 +40,7 @@ const Projects = () => {
                             rel="noopener noreferrer"
                             className="bg-gray-900/80 text-white p-2 rounded-full hover:bg-green-500 transition-colors duration-300"
                             aria-label="View Live Demo"
+                            onClick={(e) => e.stopPropagation()}
                         >
                             <i className="fas fa-external-link-alt text-sm"></i>
                         </a>
@@ -55,25 +65,6 @@ const Projects = () => {
                             {tech}
                         </span>
                     ))}
-                </div>
-                
-                <div className="flex space-x-4">
-                    <a 
-                        href={project.liveLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 bg-green-500 hover:bg-green-600 text-white text-center py-2 px-4 rounded-lg font-medium transition-colors duration-300"
-                    >
-                        Live Demo
-                    </a>
-                    <a 
-                        href={project.githubLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex-1 border border-gray-600 text-gray-300 hover:border-green-500 hover:text-green-400 text-center py-2 px-4 rounded-lg font-medium transition-colors duration-300"
-                    >
-                        Code
-                    </a>
                 </div>
             </div>
         </div>
@@ -111,28 +102,6 @@ const Projects = () => {
                         {showAll ? 'Show Less' : 'View All Projects'}
                         <i className={`fas fa-arrow-${showAll ? 'up' : 'down'} ml-2`}></i>
                     </button>
-                </div>
-
-                {/* Project Stats */}
-                <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div className="text-center">
-                        <div className="text-4xl font-bold text-green-400 mb-2">
-                            {window.projectsData.length}+
-                        </div>
-                        <div className="text-gray-300">Projects Completed</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-4xl font-bold text-green-400 mb-2">
-                            15+
-                        </div>
-                        <div className="text-gray-300">Technologies Used</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-4xl font-bold text-green-400 mb-2">
-                            100%
-                        </div>
-                        <div className="text-gray-300">Client Satisfaction</div>
-                    </div>
                 </div>
             </div>
         </section>

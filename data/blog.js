@@ -2,8 +2,8 @@
 const blogData = [
     {
         id: 1,
-        title: "Getting Started with Machine Learning: A Beginner's Guide",
-        excerpt: "Learn the fundamentals of machine learning, from data preprocessing to model evaluation, with practical examples and code snippets.",
+        title: "Being a Trailblazer, Literally.",
+        excerpt: "What it's like being the OUTdoors president, and managing 10+ people in the wilderness.",
         content: `# Getting Started with Machine Learning: A Beginner's Guide
 
 Machine learning is transforming industries and creating new opportunities for data professionals. In this comprehensive guide, we'll explore the fundamentals of machine learning and how to get started.
@@ -47,7 +47,7 @@ Machine learning is an exciting field with endless possibilities. Start with the
     },
     {
         id: 2,
-        title: "Data Visualization Best Practices",
+        title: "Census Data Optimizations for U.S. Populations",
         excerpt: "Discover the principles of effective data visualization and learn how to create compelling charts and graphs that tell a story.",
         content: `# Data Visualization Best Practices
 
@@ -97,7 +97,7 @@ Great visualizations tell a story and make complex data accessible to everyone.`
     },
     {
         id: 3,
-        title: "Building Your First Data Science Portfolio",
+        title: "Building a Passion Project",
         excerpt: "Learn how to create a compelling data science portfolio that showcases your skills and attracts potential employers.",
         content: `# Building Your First Data Science Portfolio
 
@@ -146,53 +146,6 @@ A well-crafted portfolio demonstrates your skills and passion for data science.`
         tags: ["Portfolio", "Career", "Data Science"],
         featured: true,
         image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop"
-    },
-    {
-        id: 4,
-        title: "Understanding Deep Learning Fundamentals",
-        excerpt: "Dive into the world of deep learning and neural networks with this comprehensive introduction to the field.",
-        content: `# Understanding Deep Learning Fundamentals
-
-Deep learning has revolutionized artificial intelligence and is now being applied across various industries.
-
-## What is Deep Learning?
-
-Deep learning is a subset of machine learning that uses neural networks with multiple layers to model and understand complex patterns in data.
-
-## Key Concepts
-
-### Neural Networks
-- Perceptrons and activation functions
-- Backpropagation
-- Gradient descent
-
-### Popular Architectures
-- Convolutional Neural Networks (CNNs)
-- Recurrent Neural Networks (RNNs)
-- Transformers
-
-## Applications
-
-- Computer vision
-- Natural language processing
-- Speech recognition
-- Recommendation systems
-
-## Getting Started
-
-1. Learn the basics of machine learning
-2. Understand linear algebra and calculus
-3. Practice with frameworks like TensorFlow or PyTorch
-4. Work on real projects
-
-## Conclusion
-
-Deep learning opens up exciting possibilities for solving complex problems.`,
-        date: "2024-01-01",
-        readTime: "10 min read",
-        tags: ["Deep Learning", "Neural Networks", "AI"],
-        featured: false,
-        image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=400&fit=crop"
     }
 ];
 

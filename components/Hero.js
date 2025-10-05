@@ -16,8 +16,8 @@ const Hero = () => {
                             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-100 leading-tight">
                                 Hi, I'm <span className="gradient-text">Jade Xu</span>
                             </h1>
-                            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-300">
-                                Data Scientist & Analyst
+                            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-500">
+                                Aspiring Data Analyst
                             </h2>
                         </div>
                         
@@ -47,7 +47,7 @@ const Hero = () => {
                         {/* Social Links */}
                         <div className="flex space-x-6 pt-4">
                             <a 
-                                href="https://github.com" 
+                                href="https://github.com/bxjyj" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-gray-400 hover:text-green-400 transition-colors duration-300 text-2xl hover:scale-110 transform"
@@ -56,7 +56,7 @@ const Hero = () => {
                                 <i className="fab fa-github"></i>
                             </a>
                             <a 
-                                href="https://linkedin.com" 
+                                href="https://www.linkedin.com/in/jiayi-jade-xu/" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="text-gray-400 hover:text-green-400 transition-colors duration-300 text-2xl hover:scale-110 transform"
@@ -72,7 +72,7 @@ const Hero = () => {
                         <div className="relative">
                             <div className="w-100 h-100 lg:w-100 lg:h-100 rounded-2xl overflow-hidden shadow-2xl">
                                 <img 
-                                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face" 
+                                    src="images/IMG_4292.JPG" 
                                     alt="Jade Xu - Data Scientist"
                                     className="w-full h-full object-cover"
                                 />

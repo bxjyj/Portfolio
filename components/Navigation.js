@@ -1,4 +1,4 @@
-const Navigation = () => {
+const Navigation = ({ navigateTo }) => {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
     const scrollToSection = (sectionId) => {
@@ -7,6 +7,14 @@ const Navigation = () => {
             element.scrollIntoView({ behavior: 'smooth' });
         }
         setIsMenuOpen(false);
+    };
+
+    const goHome = () => {
+        if (navigateTo) {
+            navigateTo('');
+        } else {
+            scrollToSection('hero');
+        }
     };
 
     const navItems = [
@@ -25,7 +33,7 @@ const Navigation = () => {
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <button 
-                            onClick={() => scrollToSection('hero')}
+                            onClick={goHome}
                             className="text-2xl font-bold text-gray-100 hover:text-green-400 transition-colors duration-300"
                         >
                             Jade Xu

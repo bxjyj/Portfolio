@@ -7,45 +7,17 @@ const Contact = () => {
     });
     const [isSubmitting, setIsSubmitting] = React.useState(false);
 
-
-    const contactInfo = [
-        {
-            icon: 'fas fa-envelope',
-            title: 'Email',
-            value: 'alex@example.com',
-            link: 'mailto:alex@example.com'
-        },
-        {
-            icon: 'fas fa-phone',
-            title: 'Phone',
-            value: '+1 (555) 123-4567',
-            link: 'tel:+15551234567'
-        },
-        {
-            icon: 'fas fa-map-marker-alt',
-            title: 'Location',
-            value: 'San Francisco, CA',
-            link: '#'
-        },
-        {
-            icon: 'fas fa-clock',
-            title: 'Available',
-            value: 'Mon - Fri, 9AM - 6PM PST',
-            link: '#'
-        }
-    ];
-
     const socialLinks = [
         {
             name: 'GitHub',
             icon: 'fab fa-github',
-            url: 'https://github.com',
+            url: 'https://github.com/bxjyj',
             color: 'hover:text-gray-300'
         },
         {
             name: 'LinkedIn',
             icon: 'fab fa-linkedin',
-            url: 'https://linkedin.com',
+            url: 'https://www.linkedin.com/in/jiayi-jade-xu/',
             color: 'hover:text-blue-400'
         }
     ];
@@ -76,25 +48,6 @@ const Contact = () => {
                                 Whether you have a data challenge to solve or just want to chat about 
                                 data science, feel free to reach out!
                             </p>
-                        </div>
-
-                        {/* Contact Info Cards */}
-                        <div className="space-y-4">
-                            {contactInfo.map((info, index) => (
-                                <a
-                                    key={index}
-                                    href={info.link}
-                                    className="flex items-center p-4 bg-gray-800/50 rounded-xl border border-gray-700 hover:border-green-500/50 transition-all duration-300 group"
-                                >
-                                    <div className="flex-shrink-0 w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mr-4 group-hover:bg-green-500/30 transition-colors duration-300">
-                                        <i className={`${info.icon} text-green-400 text-lg`}></i>
-                                    </div>
-                                    <div>
-                                        <div className="text-sm text-gray-400 font-medium">{info.title}</div>
-                                        <div className="text-gray-200 font-semibold">{info.value}</div>
-                                    </div>
-                                </a>
-                            ))}
                         </div>
 
                         {/* Social Links */}
