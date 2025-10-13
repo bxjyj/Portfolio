@@ -32,7 +32,8 @@ const skillsData = {
     certificates: [
         { name: 'Machine Learning Foundations', icon: 'fas fa-certificate' },
         { name: 'Fundamentals of Deep Learning', icon: 'fas fa-graduation-cap' },
-        { name: 'Building Models for GIS Analysis Using ArcGIS', icon: 'fas fa-map-signs' }
+        { name: 'Building Models for GIS Analysis Using ArcGIS', icon: 'fas fa-map-signs' },
+        { name: "Spatial Data Science: The New Frontier in Analytics", icon: 'fas fa-certificate'}
     ]
 };
 
