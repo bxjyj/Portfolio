@@ -31,8 +31,8 @@ const Contact = () => {
                     </h2>
                     <div className="w-24 h-1 bg-green-500 mx-auto rounded-full mb-6"></div>
                     <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-                        Have a project in mind or want to collaborate? I'd love to hear from you. 
-                        Let's discuss how we can work together to solve data challenges.
+                        Have a project in mind or want to collaborate? I'd love to hear from you! 
+                        Let's connect to solve data challenges together!
                     </p>
                 </div>
 

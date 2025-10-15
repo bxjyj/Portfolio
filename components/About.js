@@ -19,22 +19,21 @@ const About = () => {
                         
                         <div className="space-y-4 text-gray-300 leading-relaxed">
                             <p>
-                                I'm a junior Data Scientist with a strong foundation in statistics, machine learning, 
-                                and data visualization. My journey began with a fascination for patterns in data and 
-                                has evolved into a passion for creating meaningful insights that drive business decisions.
+                                I'm an aspiring Data Scientist who loves bringing geographic and environmental insights 
+                                to life through visualizations. I combine my passion for nature and sustainability with analytical skills—using math-driven
+                                approaches to optimize data analysis and build machine learning models.Whether I'm exploring trails or exploring datasets, 
+                                I'm always looking for patterns that tell compelling stories about our world.
                             </p>
                             
-                            <p>
-                                With expertise in Python, R, and SQL, I specialize in transforming raw data into 
+                            <p> 
+                                With experience in Python, C++, and Java, I specialize in transforming raw data into 
                                 actionable insights through statistical analysis, predictive modeling, and compelling 
                                 data visualizations. I'm particularly interested in machine learning applications 
-                                and big data analytics.
+                                and big data analytics in the healthcare industry and sustainability.
                             </p>
                             
                             <p>
-                                When I'm not crunching numbers, you'll find me exploring new datasets on Kaggle, 
-                                contributing to open-source projects, or writing about my latest discoveries in 
-                                data science and AI.
+                                When I'm not coding, I'm outside bird watching, exploring nature, or practicing my yoga.
                             </p>
                         </div>
 

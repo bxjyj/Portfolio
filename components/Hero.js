@@ -22,9 +22,7 @@ const Hero = () => {
                         </div>
                         
                         <p className="text-lg md:text-xl text-gray-400 leading-relaxed max-w-2xl">
-                            I transform complex data into actionable insights and build intelligent solutions 
-                            that drive business growth. Passionate about machine learning, statistical analysis, 
-                            and creating data-driven stories that make a difference.
+                            I'm a data enthusiast who loves bringing geographic and environmental insights to life through visualizations
                         </p>
                         
                         <div className="flex flex-col sm:flex-row gap-4">

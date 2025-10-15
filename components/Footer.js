@@ -43,7 +43,7 @@ const Footer = () => {
                             </h3>
                             <p className="text-gray-400 leading-relaxed max-w-md">
                                 Junior Data Scientist passionate about transforming data into insights 
-                                and building intelligent solutions that drive business growth.
+                                and building intelligent solutions to create impact.
                             </p>
                         </div>
                         
