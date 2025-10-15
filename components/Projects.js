@@ -30,7 +30,7 @@ const Projects = ({ navigateTo }) => {
                             rel="noopener noreferrer"
                             className="bg-gray-900/80 text-white p-2 rounded-full hover:bg-green-500 transition-colors duration-300"
                             aria-label="View GitHub"
-                            onClick={(e) => e.stopPropagation()}
+                          z  onClick={(e) => e.stopPropagation()}
                         >
                             <i className="fab fa-github text-sm"></i>
                         </a>
@@ -80,7 +80,7 @@ const Projects = ({ navigateTo }) => {
                     <div className="w-24 h-1 bg-green-500 rounded-full mb-6"></div>
                     <p className="text-xl text-gray-400 max-w-3xl">
                         A collection of data science projects showcasing my skills in machine learning, 
-                        data analysis, and visualization
+                        data analysis, and visualization.
                     </p>
                 </div>
 

@@ -22,7 +22,7 @@ const Hero = () => {
                         </div>
                         
                         <p className="text-lg md:text-xl text-gray-400 leading-relaxed max-w-2xl">
-                            I'm a data enthusiast who loves bringing geographic and environmental insights to life through visualizations
+                            I'm a data enthusiast who loves bringing geographic and environmental insights to life through visualizations.
                         </p>
                         
                         <div className="flex flex-col sm:flex-row gap-4">

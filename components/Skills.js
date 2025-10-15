@@ -24,7 +24,7 @@ const Skills = () => {
                     </h2>
                     <div className="w-24 h-1 bg-green-500 rounded-full mb-6"></div>
                     <p className="text-xl text-gray-400 max-w-3xl">
-                        A comprehensive overview of my technical expertise and tools I use to solve data problems
+                    {/* Category Tabs */}
                     </p>
                 </div>
 

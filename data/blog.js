@@ -4,15 +4,16 @@ const blogData = [
         id: 1,
         title: "Being a Trailblazer, Literally.",
         excerpt: "What it's like being the OUTdoors president, and managing 10+ people in the wilderness.",
-        content: `# Getting Started with Machine Learning: A Beginner's Guide
+        content: `# Leadership in the Outdoors: My Journey as OUTdoors President
 
 Machine learning is transforming industries and creating new opportunities for data professionals. In this comprehensive guide, we'll explore the fundamentals of machine learning and how to get started.
 
-## What is Machine Learning?
+## What is OUTdoors?
 
-Machine learning is a subset of artificial intelligence that enables computers to learn and make decisions from data without being explicitly programmed for every task.
+OUTdoors is the University of Florida's LGBTQ+ hiking and outdoor adventure club. As the president, I lead a team of passionate individuals who organize hikes, camping trips, and other outdoor activities. 
+Our mission is to create a welcoming environment for LGBTQ+ individuals to connect with nature and each other.
 
-## Key Concepts
+## My Journey
 
 ### 1. Data Preprocessing
 - Data cleaning and handling missing values
@@ -39,9 +40,9 @@ Machine learning is a subset of artificial intelligence that enables computers t
 ## Conclusion
 
 Machine learning is an exciting field with endless possibilities. Start with the basics, practice regularly, and don't be afraid to experiment!`,
-        date: "2024-01-15",
+        date: "2025-10-15",
         readTime: "8 min read",
-        tags: ["Machine Learning", "Python", "Tutorial"],
+        tags: ["Nature", "Blog"],
         featured: true,
         image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=400&fit=crop"
     },
