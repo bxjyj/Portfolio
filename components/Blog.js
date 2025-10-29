@@ -67,11 +67,6 @@ const Blog = ({ navigateTo }) => {
                         Read More
                         <i className="fas fa-arrow-right ml-2 group-hover:translate-x-1 transition-transform duration-300"></i>
                     </span>
-                    
-                    <div className="flex items-center text-gray-400 text-sm">
-                        <i className="fas fa-eye mr-1"></i>
-                        <span>1.2k views</span>
-                    </div>
                 </div>
             </div>
         </article>
@@ -87,7 +82,7 @@ const Blog = ({ navigateTo }) => {
                     </h2>
                     <div className="w-24 h-1 bg-green-500 rounded-full mb-6"></div>
                     <p className="text-xl text-gray-400 max-w-3xl">
-                        Thoughts, tutorials, and insights about data science, machine learning, and the tech industry
+                        Thoughts, insights about data science, machine learning, and the tech industry
                     </p>
                 </div>
 

@@ -6,43 +6,27 @@ const blogData = [
         excerpt: "What it's like being the OUTdoors president, and managing 10+ people in the wilderness.",
         content: `# Leadership in the Outdoors: My Journey as OUTdoors President
 
-Machine learning is transforming industries and creating new opportunities for data professionals. In this comprehensive guide, we'll explore the fundamentals of machine learning and how to get started.
-
-## What is OUTdoors?
-
-OUTdoors is the University of Florida's LGBTQ+ hiking and outdoor adventure club. As the president, I lead a team of passionate individuals who organize hikes, camping trips, and other outdoor activities. 
-Our mission is to create a welcoming environment for LGBTQ+ individuals to connect with nature and each other.
+# What is OUTdoors?
+#### OUTdoors is the University of Florida's LGBTQ+ hiking and outdoor adventure club. As the president, I lead a team of passionate individuals who organize hikes, camping trips, and other outdoor activities. Our mission is to create a welcoming environment for LGBTQ+ individuals to connect with nature and each other.
 
 ## My Journey
+### 1. Freshman Year - Joining OUTdoors
+#### I joined OUTdoors during my freshman year, eager to explore the outdoors and meet new people. The club's inclusive atmosphere made it easy to feel at home, and I loved the community. We went on several hikes and camping trips, which sparked my passion for the outdoors and experiencing it togther with others. I learned how to kayak and saw manatees for the first time!
 
-### 1. Data Preprocessing
-- Data cleaning and handling missing values
-- Feature engineering and selection
-- Data normalization and scaling
+### 2. Sophomore Year - Taking on Leadership
+#### In my sophomore year, I decided to take on a leadership role within OUTdoors. I became a trail leader, responsible for planning and organizing our activities. This experience taught me valuable skills in communication, teamwork, event planning, and wilderness safety. I worked closely with other club members and officers to ensure our hikes and camping trips were safe, enjoyable, and inclusive for everyone.
 
-### 2. Model Training
-- Choosing the right algorithm
-- Training and validation sets
-- Cross-validation techniques
+### 3. Junior Year - Leading the Team
+#### In my junior year, I decided run for treasurer of OUTdoors, and was elected! As treasurer, I managed the club's finances, budgeted for events, and organized events. This role required strong organizational skills and attention to detail, as well as the ability to work collaboratively with other officers. I managed a budget of $4,000 annually and used it to fund gear purchases, food, and site reservations for our camping trips and day trips. I also continued to lead hikes and camping trips, further developing my leadership skills and deepening my connection to the outdoors.
 
-### 3. Model Evaluation
-- Performance metrics
-- Overfitting and underfitting
-- Model selection strategies
+### 4. Senior Year - Making an Impact
+#### This year, I was elected president of OUTdoors! As president, I lead a team of 3 officers and oversee all club activities. I am responsible for setting the club's vision, planning events, managing finances, and ensuring a welcoming environment for all members. This role has been both challenging and rewarding, as I strive to make a positive impact on our members and the broader community. We've already organized 5+ hikes and one day trip to Ichetucknee Springs State Park, and have a camping trip planned for later in the semester. I'm proud of the inclusive and supportive community we've built within OUTdoors, and I'm excited to see what the future holds.
 
-## Getting Started
-
-1. Learn Python or R
-2. Understand statistics and linear algebra
-3. Practice with real datasets
-4. Build projects and share them
-
-## Conclusion
-
-Machine learning is an exciting field with endless possibilities. Start with the basics, practice regularly, and don't be afraid to experiment!`,
-        date: "2025-10-15",
-        readTime: "8 min read",
-        tags: ["Nature", "Blog"],
+## Reflection
+#### Being a part of OUTdoors has been a transformative experience for me. It has allowed me to develop my leadership skills, connect with like-minded individuals, and deepen my appreciation for the outdoors. As president, I am committed to continuing to grow the club and create meaningful experiences for our members. I encourage anyone interested in hiking, camping, or outdoor adventures to join OUTdoors and experience the joy of nature in a supportive LGBTQ+ community.`,
+        date: "2025-10-17",
+        readTime: "4 min read",
+        tags: ["Nature", "Blog", "Leadership"],
         featured: true,
         image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800&h=400&fit=crop"
     },
