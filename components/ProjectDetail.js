@@ -1,6 +1,16 @@
 const ProjectDetail = ({ project, goBack }) => {
     if (!project) return null;
 
+    
+    React.useEffect(() => {
+        // Scroll to the top of the page when the component mounts
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'instant'
+        });
+    }, [project]);
+    
     return (
         <div className="min-h-screen bg-gray-900">
             {/* Navigation */}

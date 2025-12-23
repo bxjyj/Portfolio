@@ -10,6 +10,14 @@ const BlogDetail = ({ blog, goBack }) => {
         });
     };
 
+    React.useEffect(() => {
+        // Scroll to the top of the page when the component mounts
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }, [blog]);
     return (
         <div className="min-h-screen bg-gray-900">
             {/* Navigation */}
@@ -107,7 +115,7 @@ const BlogDetail = ({ blog, goBack }) => {
                             <div className="flex-1">
                                 <h3 className="text-xl font-bold text-gray-100 mb-2">Jade Xu</h3>
                                 <p className="text-gray-300 mb-4">
-                                    Aspiring Data Analyst passionate about machine learning, statistical analysis, 
+                                    Aspiring Data Scientist passionate about machine learning, statistical analysis, 
                                     and creating data-driven stories that make a difference.
                                 </p>
                                 <div className="flex space-x-4">

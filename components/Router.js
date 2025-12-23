@@ -2,6 +2,7 @@ const Router = () => {
     const [currentPage, setCurrentPage] = React.useState('home');
     const [pageData, setPageData] = React.useState(null);
 
+    
     // Handle URL changes and routing
     React.useEffect(() => {
         const handleRouteChange = () => {

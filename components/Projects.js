@@ -7,7 +7,10 @@ const Projects = ({ navigateTo }) => {
     const ProjectCard = ({ project }) => (
         <div 
             className="bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-green-500/50 transition-all duration-300 group hover:shadow-lg hover:shadow-green-500/10 cursor-pointer"
-            onClick={() => navigateTo(`project/${project.id}`)}
+            onClick={() => {
+            navigateTo(`project/${project.id}`);
+            window.scrollTo(0, 0);}}
+
         >
             <div className="relative overflow-hidden">
                 <img 

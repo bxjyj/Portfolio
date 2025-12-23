@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d ."
   },
   "keywords": ["portfolio", "data-science", "react", "tailwind"],
-  "author": "Your Name",
+  "author": "Jade Xu",
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^6.0.0",

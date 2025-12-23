@@ -1,6 +1,18 @@
 const HobbyDetail = ({ hobby, goBack }) => {
     if (!hobby) return null;
 
+
+    
+    React.useEffect(() => {
+        // Scroll to the top of the page when the component mounts
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        });
+    }, [hobby]);
+
+    
     return (
         <div className="min-h-screen bg-gray-900">
             {/* Navigation */}
